@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controversy News Aggregation System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Controversy News Aggregation System</h1>
+        </header>
+        <section class="input-section">
+            <h2>Input Details</h2>
+            <form id="news-form">
+                <div class="form-group">
+                    <label for="company-name">Company Name:</label>
+                    <input type="text" id="company-name" placeholder="e.g., Infosys" required>
+                </div>
+                <div class="form-group">
+                    <label for="start-date">Start Date:</label>
+                    <input type="date" id="start-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="end-date">End Date:</label>
+                    <input type="date" id="end-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="email-address">Email Address:</label>
+                    <input type="email" id="email-address" placeholder="e.g., example@example.com" required>
+                </div>
+                <button type="submit" class="btn">Generate Summary</button>
+            </form>
+        </section>
+        <section class="output-section">
+            <h2>Output Summary</h2>
+            <div id="output">
+                Enter details above and click "Generate Summary" to see the results.
+            </div>
+            <div id="email-confirmation"></div>
+        </section>
+    </div>
+    <script src="bundle.js"></script>
+</body>
+</html>
