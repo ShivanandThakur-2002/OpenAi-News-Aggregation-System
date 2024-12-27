@@ -120,3 +120,8 @@ Copy code
   - Implement advanced filtering options (e.g., sentiment analysis, news categories).
   - Enhance UI for better responsiveness and aesthetics.
   - Add email templates for a more professional appearance.
+
+## Deployment
+The project is live and accessible on the following platforms:
+
+     - Netlify: https://new-agg-system.netlify.app/  
